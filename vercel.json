@@ -1,0 +1,21 @@
+{
+  "headers": [
+    {
+      "source": "/mp3_intake_questions/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://www.iamsoulguidance.com, https://dynamic-assets-carj3ixfr-randal-collens-projects.vercel.app, https://chat.openai.com, https://relevanceai.com"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}
